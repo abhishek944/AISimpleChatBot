@@ -73,7 +73,7 @@ export default function LabelsPage() {
                     </div>
                     <Textarea
                         id="big-text"
-                        rows="15"
+                        rows={15}
                         value={labelData}
                         className="mt-1 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500"
                         readOnly={true}

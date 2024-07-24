@@ -54,7 +54,7 @@ export default function Train() {
                     </label>
                     <Textarea
                         id="big-text"
-                        rows="15"
+                        rows={15}
                         placeholder="Your Label text"
                         value={labelText}
                         onChange={handleLabelTextChange}
