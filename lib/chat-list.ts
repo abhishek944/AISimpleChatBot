@@ -23,7 +23,7 @@ export type SelfUser = {
 export const SelfUserSample: SelfUser = {
     id: '1',
     avatar: 'user-avatar.png',
-    name: 'John Doe',
+    name: 'Mr. A',
 }
 
 export const ChatUserSample: ChatUser = {
@@ -33,34 +33,10 @@ export const ChatUserSample: ChatUser = {
     messages: [
         {
             id: '1',
-            message: 'Hello, are you there?',
+            message: "Hello! I'm your AI chat-bot. By default I look up the trained data to answer your questions. But you can check the 'global-search' checkbox at the bottom and I'll answer to the best of my knowledge.",
             order: 1,
-            sentBy: 'self-user',
-        },
-        {
-            id: '2',
-            message: 'Yes, I am here.',
-            order: 2,
             sentBy: 'chat-user',
         },
-        {
-            id: '3',
-            message: 'How can I help you today?',
-            order: 3,
-            sentBy: 'chat-user',
-        },
-        {
-            id: '4',
-            message: 'I need help with my order.',
-            order: 4,
-            sentBy: 'self-user',
-        },
-        {
-            id: '5',
-            message: 'Sure, I can help you with that.',
-            order: 5,
-            sentBy: 'chat-user',
-        }
     ],
 }
 
